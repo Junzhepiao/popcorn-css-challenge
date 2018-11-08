@@ -3,3 +3,136 @@ Header background - #FFDBAA
 button - #805215
 Header Text - #553100
 Main background - #D4A76A*/
+
+header {
+    background-color: #FFDBAA;
+    padding: 20px 30px 30px 30px;
+    border-bottom: 1px solid black;
+    height: 100%;
+}
+
+h1 {
+  font-family: Arial,sans-serif;
+  color: #553100;
+  display:inline;
+}
+h2 {
+  font-family: Arial,sans-serif;
+  text-align: center;
+  margin-top: 0 ;
+  margin-bottom: 10px;
+}
+
+.menu {
+position: absolute;
+top: 35px;
+right: 5%;
+display: flex;
+justify-content: center;
+}
+
+.menu .nav-1-4 {
+  text-align: center;
+}
+.menu div{
+  float: right;
+  display: inline;
+  margin-right: 10px;
+  margin-left: 10px;
+  text-align: center;
+}
+
+div.nav-1, div.nav-2, div.nav-3, div.nav-4 {
+  width: 100px;
+  height: 30px;
+  border: none;
+  background-color: #805215;
+padding: 10px 0 0 0;
+margin-left: 10px;
+margin-right: 10px;
+text-align: center;
+}
+
+a:link {
+  color: white;
+  font-weight: bold;
+  font-size: large;
+  text-decoration: none;
+  width: 100px;
+  font-family: Arial,sans-serif;
+  background-color: #805215;
+  margin: 0 auto;
+}
+
+main .top-3 {
+text-align: center;
+}
+
+.flights, .group-trips, .discount-flights {
+    display: inline-block;
+    width: 350px;
+    height: 150px;
+    border: none;
+    padding: 10px;
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: white;
+    -webkit-box-shadow: 0px 0px 24px 9px rgba(0,0,0,0.39);
+    box-shadow: 0px 0px 24px 9px rgba(0,0,0,0.39);
+}
+/* shadow code cite: https://html-css-js.com/css/generator/box-shadow/ */
+.about-us {
+  width: auto;
+  height: 150px;
+  border: none;
+  padding: 10px;
+  margin-left: 2%;
+  margin-right: 2%;
+  background-color: white;
+  -webkit-box-shadow: 0px 0px 24px 9px rgba(0,0,0,0.39);
+  box-shadow: 0px 0px 24px 9px rgba(0,0,0,0.39);
+}
+
+button {
+    display: inline-block;
+    background-color: #805215;
+    border: 1px solid black;;
+    color: white;
+    margin-bottom: 0;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 0;
+    padding-right: 0;
+    text-align: center;
+    text-decoration: none;
+    font-size: large;
+    font-weight: bold;
+}
+
+.flights p, .group-trips p, .discount-flights p {
+  font-family: Arial,sans-serif;
+  weight:350px;
+  height: 70px;
+  width: 100%;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+.about-us p {
+  font-family: Arial,sans-serif;
+  weight:auto;
+  height: 70px;
+  width: 100%;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+
+}
+body {
+  background-color: #D4A76A;
+  margin:0;
+}
